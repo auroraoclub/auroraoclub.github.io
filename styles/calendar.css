@@ -1,0 +1,11 @@
+select {
+    background: rgba(247, 229, 211, 0.35);
+    font-family: Dela Gothic One, cursive;
+    color: #000000;
+    font-size: 18px;
+}
+
+select option {
+    background: rgba(255, 222, 187, 0.35);
+    font-size: 16px;
+}

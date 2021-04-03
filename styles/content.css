@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Russo+One&display=swap');
+content {
+    background: rgba(247, 229, 211, 0.35);
+    font-family: Dela Gothic One, cursive;
+    color: #000000;
+    font-size: 16px;
+    float: right;
+    width: 69%;
+    margin: 0;
+    padding-left: 1%;
+}
+
+content h2 {
+    font-family: Russo one, cursive;
+    color: #c94204;
+    text-shadow: 1px 0 0 #000, -1px 0 0 #000, 0 1px 0 #000, 0 -1px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+    padding-left: 3%;
+    padding-bottom: 1%;
+}
+
+.leftimg {
+    float: left;
+    margin: 7px 7px 7px 0;
+    border-color: white white red red;
+    border-style: solid;
+    border-spacing: 10px;
+    border-width: 10px;
+}
+
+.rightimg {
+    float: right;
+    margin: 7px 0 7px 7px;
+}

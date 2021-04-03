@@ -1,0 +1,60 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Russo+One&display=swap');
+body {
+    background: url("../Pictures/main_foto.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    color: #c94204;
+    font-family: Dela Gothic One, cursive;
+    padding: 0px;
+}
+
+header {
+    background: transparent;
+    height: 10%;
+    padding: 0px;
+    font-family: Russo one, cursive;
+    font-size: 30px;
+    text-align: center;
+    text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+}
+
+navigation {
+    background: transparent;
+    font-family: Russo one, cursive;
+    height: 5%;
+    padding: 0px;
+}
+
+.contentwraper {
+    position: relative;
+    margin: 1%;
+    height: 70%;
+}
+
+menu {
+    background: rgba(252, 160, 62, 0.45);
+    font-family: Russo one, cursive;
+    width: 25%;
+    margin: 0;
+    float: left;
+    text-shadow: 1px 0 0 #000, -1px 0 0 #000, 0 1px 0 #000, 0 -1px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+    min-width: 150px;
+    padding-inline-start: 2%;
+}
+
+menu h2 {
+    font-size: 16px;
+    font-family: Russo one, cursive;
+    color: #c94204;
+}
+
+footer {
+    background: #e0840b;
+    width: 100%;
+    padding: 0px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 30px;
+}
