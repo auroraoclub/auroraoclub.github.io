@@ -27,7 +27,6 @@ navigation {
 }
 
 .contentwraper {
-    position: relative;
     margin: 1%;
     height: 70%;
 }
@@ -37,6 +36,7 @@ menu {
     font-family: Russo one, cursive;
     width: 25%;
     margin: 0;
+    margin-top: 1%;
     float: left;
     text-shadow: 1px 0 0 #000, -1px 0 0 #000, 0 1px 0 #000, 0 -1px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
     min-width: 150px;
@@ -47,14 +47,4 @@ menu h2 {
     font-size: 16px;
     font-family: Russo one, cursive;
     color: #c94204;
-}
-
-footer {
-    background: #e0840b;
-    width: 100%;
-    padding: 0px;
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    height: 30px;
 }

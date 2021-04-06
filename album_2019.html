@@ -12,6 +12,8 @@
     <link rel="stylesheet" type="text/css" href="styles/vertmenu.css" />
     <link rel="stylesheet" type="text/css" href="styles/content.css" />
     <link rel="stylesheet" type="text/css" href="styles/footer.css" />
+    <link rel="stylesheet" type="text/css" href="styles/galery.css" />
+    <link rel="stylesheet" type="text/css" href="styles/modal.css" />
 
 </head>
 
@@ -34,7 +36,7 @@
             </ul>
         </nav>
     </navigation>
-
+    <div style="clear:both"></div>
     <div class="contentwpapper">
         <menu>
             <h2> Архив новостей </h2>
@@ -100,25 +102,52 @@
                 </ul>
             </div>
         </menu>
+
         <content>
-            <h2> Наши тренеры</h2>
-            <p style="margin-left: 10px;">
-                <p><img src="Pictures/svtlana.jpg" alt="Светлана Райкова" width="300" height="250" class="leftimg"> Светлана Александровна, 100 лет опыта, куча довольных воспитанников
-                    <br><br><br><br><br><br><br><br><br><br><br><br>
-                </p>
-                <p><img src="Pictures/ivan.jpg" alt="Иван Родионов" width="300" height="250" class="leftimg"> Иван Ильич, 200 лет опыта, куча довольных воспитанников
-                    <br><br><br><br><br><br>
-                </p>
-            </p>
+            <h2>Лучшие фотографии 2019 года</h2>
+            <div class="row">
+                <div class="column">
+
+
+                    <img id="myImg" src="Pictures/albums/2019/2rRn2xTlaVY.jpg" alt="modal" style="width:100%">
+                    <img src="Pictures/albums/2019/2rRn2xTlaVY.jpg" style="width:100%">
+                    <img src="Pictures/albums/2019/4cjWQZ3z8Yk.jpg" style="width:100%">
+                    <img src="Pictures/albums/2019/4ppmZi77A3k.jpg" style="width:100%">
+                </div>
+                <div class="column">
+                    <img src="Pictures/albums/2019/5eoNxwzNW_o.jpg" style="width:100%">
+                    <img src="Pictures/albums/2019/7-jaFLHnd-c.jpg" style="width:100%">
+                    <img src="Pictures/albums/2019/7hnvkCJpmeI.jpg" style="width:100%">
+                </div>
+                <div class="column">
+                    <img src="Pictures/albums/2019/D-LT_MxbZdE.jpg" style="width:100%">
+                    <img src="Pictures/albums/2019/gtLjTBw57E8.jpg" style="width:100%">
+                    <img src="Pictures/albums/2019/nNzDmL8UBp0.jpg" style="width:100%">
+
+                </div>
+                <div class="column">
+                    <img src="Pictures/albums/2019/v61PQSlFISw.jpg" style="width:100%">
+                    <img src="Pictures/albums/2019/y_OLr-x9OTs.jpg" style="width:100%">
+                    <img src="Pictures/albums/2019/zE_negxurno.jpg" style="width:100%">
+                </div>
+            </div>
+            <div id="myModal" class="modal">
+                <span class="close">×</span>
+                <img class="modal-content" id="img01" style="width:100%">
+                <div id="caption"></div>
+            </div>
         </content>
-        <div style="clear:both"></div>
-        <footer>
-            <p>
-                <p>© 2021 Alex Raykov</p>
-                <a href="https://vk.com/lexraykov"><img src="Pictures/vkicon.png" alt="иконкаВК"></a>
-            </p>
-        </footer>
     </div>
+    <div style="clear:both"></div>
+    <footer>
+        <p>
+            <p>© 2021 Alex Raykov</p>
+            <a href="https://vk.com/lexraykov"><img src="Pictures/vkicon.png" alt="иконкаВК"></a>
+        </p>
+    </footer>
+
+    <script src="scrips/modal.js"></script>
 </body>
+
 
 </html>
